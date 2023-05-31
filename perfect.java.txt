@@ -1,0 +1,31 @@
+import util.Scanner;
+public class Target{
+
+public static void main(String[] args)
+{
+	Scanner sc = new Scanner(System.in);
+	System.out.println("Enter the target element");
+	int target=sc.nextInt();
+	int arr1[]={10,20,30,40,49};
+
+	
+
+	for(int i=0; i<=arr1.length-1;i++)
+	
+	{
+		if(arr1[i] == target)
+			{
+				System.out.println("target element present in array");	
+			}
+			
+		else{
+		
+		System.out.println("target element are not present in array");
+		}
+
+	}
+
+
+}
+
+}
